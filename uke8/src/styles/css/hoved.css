@@ -1,0 +1,38 @@
+header {
+  display: grid;
+  grid-template-areas: 'btn_1 btn_2 btn_3';
+}
+
+#btn_1 {
+  grid-area: btn_1;
+}
+
+#btn_2 {
+  grid-area: btn_2;
+}
+
+#btn_3 {
+  grid-area: btn_3;
+}
+
+.icon {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+main {
+  display: grid;
+  grid-template-areas: 'img article';
+  grid-gap: auto;
+  max-width: 1000px;
+  margin: auto;
+}
+
+img{
+    grid-area:img;
+    padding: 10px;
+}
+
+article{
+    grid-area:article;
+}
